@@ -1,0 +1,174 @@
+.head{
+    width: 100%;
+    height: 60px;
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.left{
+    flex: 1;
+}
+.left div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /*background-image: url(../01头像/头像.svg);*/
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    background-position: center;
+    background-size: cover;
+
+}
+.center{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    color: red;
+    font-weight: 700;
+
+
+
+}
+.right{
+    flex: 1;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.div1{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url(../01头像/加号.svg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    line-height: 35px;
+}
+.div1li{
+    position: absolute;
+    top: 85px;
+    height:105px;
+    width: 125px;
+    /*background-color: bisque;*/
+    display: none;
+    z-index: 10;
+}
+.li1{
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.li11{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../01头像/创建群聊.svg);
+}
+.li12{
+    flex: 1;
+    height: 20px;
+    font-size: 13px;
+    /*text-align: center;*/
+    line-height: 20px;
+    margin-left: 10px;
+}
+.li2{
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.li21{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../01头像/添加好友.svg);
+}
+.li22{
+    flex: 1;
+    height: 20px;
+    font-size: 13px;
+    /*text-align: center;*/
+    line-height: 20px;
+    margin-left: 10px;
+}
+.li3{
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.li31{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../01头像/扫一扫.svg);
+}
+.li32{
+    flex: 1;
+    height: 20px;
+    font-size: 13px;
+    /*text-align: center;*/
+    line-height: 20px;
+    margin-left: 10px;
+}
+.li4{
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.li41{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../01头像/面对面快传.svg);
+}
+.li42{
+    flex: 1;
+    height: 20px;
+    font-size: 13px;
+    /*text-align: center;*/
+    line-height: 20px;
+    margin-left: 10px;
+}
+.li5{
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.li51{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../01头像/付款.svg);
+}
+.li52{
+    flex: 1;
+    height: 20px;
+    font-size: 13px;
+    /*text-align: center;*/
+    line-height: 20px;
+    margin-left: 10px;
+}

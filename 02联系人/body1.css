@@ -1,0 +1,288 @@
+.body{
+
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: scroll;
+
+    /*background-color: darkgray;*/
+    opacity: .7;
+    flex: 1;
+}
+.h1{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid red;
+}
+.h1 div{
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: darkgray;
+    margin: 5px 8px 0px 8px ;
+    opacity: .7;
+
+}
+.h1left{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    background-image: url(../01头像/搜索.svg);
+    background-size: cover;
+    background-position: center;
+    /*background-color: darkgray;*/
+}
+.h1right{
+    flex: 1;
+    margin-left: 10px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 20px;
+    background-color: darkgray;
+
+}
+.h2{
+    width: 100%;
+    height: 45px;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    /*font-size: 30px;*/
+    background-color: white;
+    border-bottom: 1px solid red;
+}
+.h2left{
+    margin-left: 15px;
+    height: 45px;
+    width: 60px;
+    font-size: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.h2right{
+    height: 45px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+    font-size: 30px;
+}
+.h3{
+    height: 8px;
+    width: 100%;
+    border-bottom: red 1px solid;
+}
+.h4{
+    width: 100%;
+    height: 45px;
+    border-bottom: red 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.h4 div{
+    font-size: 18px;
+
+}
+.h41:hover{
+    box-shadow: 0px 0px 2px red;
+}
+.h42:hover{
+    box-shadow: 0px 0px 2px #9c27b0;
+}
+.h43:hover{
+    box-shadow: 0px 0px 2px brown;
+}
+.h44:hover{
+    box-shadow: 0px 0px 2px darkcyan;
+}
+.h45:hover{
+    box-shadow: 0px 0px 2px red;
+}
+.h5{
+    /*flex: 1;*/
+    width:100%;
+}
+.h5wai1{
+    width: 100%;
+    overflow: scroll;
+    /*display: none;*/
+    /*position: relative;*/
+    z-index: 1;
+}
+.h51{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.h511{
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    width: 50px;
+
+}
+.h512{
+    flex: 1;
+    height: 60px ;
+    /*text-align: center;*/
+    line-height: 60px;
+    font-size:20px;
+}
+.h513{
+    width: 50px;
+    height: 60px;
+    /*line-height: 120px;*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size:15px;
+    margin-right: 10px;
+}
+.h5wai2{
+    width: 100%;
+    overflow: scroll;
+    display: none;
+    z-index: 1;
+    /*position: relative;*/
+}
+.h5wai3{
+    display: none;
+    z-index: 1;
+    width: 100%;
+    /*position: relative;*/
+}
+.h5wai3-1{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /*border-bottom: 1px solid red;*/
+}
+.h5wai3-1-left{
+    flex: 1;}
+.h5wai3-1-left div{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(../01头像/我的电脑.svg);
+    background-size: cover;
+    background-position: center;
+}
+.h5wai3-1-right{
+
+    flex: 9;
+    height: 70px;
+    display: flex;
+    flex-flow: column;
+
+
+}
+.h5wai3-1-right-top{
+    height: 35px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.h5wai3-1-right-bottom{
+    height: 35px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    font-size: 15px;
+    font-weight: 100;
+}
+.h5wai3-2-left{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h5wai3-2-left div{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-image: url(../01头像/雷达.svg);
+    background-size: cover;
+    background-position: center;
+}
+.h5wai4{
+    display: none;
+    z-index: 1;
+    width: 100%;
+    /*position: relative;*/
+}
+.h5wai4-1{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid red;
+}
+.h5wai4-1-left{
+    flex: 1;}
+.h5wai4-1-left div{
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    background-image: url(../01头像/头像1.svg);
+    background-size: cover;
+    background-position: center;
+}
+.h5wai4-1-right{
+
+    flex: 9;
+    height: 70px;
+    display: flex;
+    flex-flow: column;
+
+
+}
+.h5wai4-1-right-top{
+    height: 35px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.h5wai4-1-right-bottom{
+    margin-top: 5px;
+    height: 35px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    font-size: 15px;
+    font-weight: 100;
+}
+/*.h5wai4-2-left{*/
+    /*width: 140px;*/
+    /*height: 140px;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+/*}*/
+/*.h5wai3-2-left div{*/
+    /*height: 120px;*/
+    /*width: 120px;*/
+    /*border-radius: 50%;*/
+    /*background-image: url(../01头像/雷达.svg);*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+/*}*/

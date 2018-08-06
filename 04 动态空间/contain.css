@@ -1,0 +1,229 @@
+
+.contain{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+    /*justify-content:flex-start;*/
+    /*border: 1px solid red;*/
+    /*background-color: aquamarine;*/
+
+
+}
+.waicontain{
+    width: 100%;
+    flex: 1;
+   /*background-color: #9c27b0;*/
+
+
+}
+.neicontain{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    overflow: scroll;
+}
+
+.title{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column  ;
+    width: 100%;
+    height: 270px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../01头像/背景.jpg);
+
+}
+.titletop{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.titletopleft{
+    margin-left: 15px;
+    height: 125px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titletopleft div{
+    height: 100px;
+    width: 100px;
+    background-image: url(../01头像/头像3.svg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.titletopright{
+    height: 125px;
+    width: 125px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.xiao{
+    height: 60px;
+    width: 125px;
+    display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.xiaoleft{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-image: url(../01头像/观看量.svg);
+    background-position: center;
+    background-size: cover;
+}
+.xiaoright div{
+height: 20px;
+    width: 100px;
+    font-size: 5px;
+    /*text-align: center;*/
+    line-height: 20px;}
+
+.titlebottom{
+width: 100%;
+    height: 35px;
+    display: flex;
+    /*flex: 1;*/
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px;
+    color: white;
+
+
+}
+.bottom{
+    /*height: 200px;*/
+    width: 100%;
+    /*background-color: darkcyan;*/
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.bottom1{
+    width: 100%;
+    height: 15px;
+    background-color: darkgray;
+    opacity: .5;
+}
+.bottom2{
+    width: 100%;
+}
+.bottom3{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.bottom3-left{
+    min-width: 70px;
+    max-width: 200px;
+    min-height: 70px;
+    max-height: 200px;
+    /*background-image: url(../01头像/头像2.svg);*/
+    background-size: cover;
+    background-position: center;
+    margin-left: 5px;
+}
+.bottom3-right{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-left: 3px;
+
+}
+.b-right-1{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}.b-right-2{
+    margin-top: 5px;
+     flex: 1;
+ }
+ .bottom4{
+     width: 100%;
+     height: 30px;
+     display: flex;
+     /*height: 20px;*/
+     justify-content: flex-start;
+     align-items: flex-end;
+     /*font-size: 15px;*/
+ }
+ .bottom4-left{
+     margin-top: 5px;
+     margin-left: 5px;
+    width: 15px;
+     height: 15px;
+     background-position: center;
+     background-size: cover;
+     background-image: url(../01头像/手机.svg);
+ }
+ .bottom4-right{
+font-size: 10px;
+ }
+.bottom5{
+    width: 100%;
+    /*height: 50px;*/
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 10px;
+    /*font-size: 15px;*/
+}
+.b5-left{
+    width: 50%;
+    font-size:10px;
+margin-left: 5px;
+}
+.b5-right{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.b5-right div{
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.bottom6{
+    background-color: darkgray;
+    opacity: .5;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.b6-left{
+    width: 30px;
+    font-size: 12px;
+    margin-left:10px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.b6-right{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../01头像/坏笑.svg);
+}
